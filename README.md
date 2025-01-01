@@ -54,12 +54,12 @@ Explanation on how the script works
     - The `rating` column is converted to numeric, and a histogram is plotted for the distribution of ratings using Seaborn's `histplot()` function.
 
  12. Save Plot as PNG:
-    - The bar plot showing the most watched genres is saved as a PNG file (`most_watched_genres.png`) using `plt.savefig()`.
+   - The bar plot showing the most watched genres is saved as a PNG file (`most_watched_genres.png`) using `plt.savefig()`.
 
  14. Save Outputs:
-    - A directory (`Netflix_analysis_output/`) is created to store the output files, including the plot.
-    - The generated PNG plot is copied into this output directory using `shutil.copy()`.
-    - The entire output directory is then compressed into a ZIP file (`Netflix_analysis.zip`) using `shutil.make_archive()`.
+   - A directory (`Netflix_analysis_output/`) is created to store the output files, including the plot.
+   - The generated PNG plot is copied into this output directory using `shutil.copy()`.
+   - The entire output directory is then compressed into a ZIP file (`Netflix_analysis.zip`) using `shutil.make_archive()`.
 
 How to Run
   - Unzip the dataset into the folder. or clone it from git hub with the repository link-
