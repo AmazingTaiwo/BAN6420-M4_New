@@ -8,7 +8,6 @@
 # Netflix Shows and Movies Analysis
 
 Introduction
-The provided Python script handles the extraction, cleaning, exploration, visualization, and saving of Netflix data. Here's a breakdown of each section and what the script does:
 This project analyzes Netflix shows and movies dataset, addressing missing values, exploring the data, and visualizing trends like the most watched genres and the distribution of ratings.
 
  Files:
