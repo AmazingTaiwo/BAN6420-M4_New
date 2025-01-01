@@ -50,8 +50,8 @@ Explanation on how the script works
     - The DataFrame is exploded into individual rows for each genre, and empty genres are filtered out.
 
  10. Data Visualization:
-    - A bar plot is created to visualize the most watched genres using Seaborn (`sns.barplot()`). This plot shows the count of each genre.
-    - The `rating` column is converted to numeric, and a histogram is plotted for the distribution of ratings using Seaborn's `histplot()` function.
+   - A bar plot is created to visualize the most watched genres using Seaborn (`sns.barplot()`). This plot shows the count of each genre.
+   - The `rating` column is converted to numeric, and a histogram is plotted for the distribution of ratings using Seaborn's `histplot()` function.
 
  12. Save Plot as PNG:
    - The bar plot showing the most watched genres is saved as a PNG file (`most_watched_genres.png`) using `plt.savefig()`.
