@@ -1,10 +1,26 @@
-# BAN6420-M4_New
-BAN6420 Module 4 Assignment
+
+# BAN6420: Programming in R & Python
+# Module 4 Assignment: Netflix Data Visualization
+
+# Name: Babalola Taiwo
+# Learner IS: 162894
+
+# Netflix Shows and Movies Analysis
 
 
 Introduction
   The provided Python script handles the extraction, cleaning, exploration, visualization, and saving of Netflix data. Here's a breakdown of each section and what the script does:
+  This project analyzes Netflix shows and movies dataset, addressing missing values, exploring the data, and visualizing trends like the most watched genres and the distribution of ratings.
 
+ Files:
+  - Python Scripts: The analysis and visualizations are written in Python.
+  - Visualizations: Charts like 'Most Watched Genres' are saved as images.
+  - README: Instructions on how to run and interpret the code.
+
+    How to Run:
+    1. Unzip the dataset into the folder.
+    2. Run the Python script to clean the data, explore it, and generate the visualizations.
+    3. Integrate visualizations into R if needed.
  1. Import Libraries:
    - Libraries like `zipfile`, `os`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, and `shutil` are imported to handle tasks like file extraction, data manipulation, visualization, and file management.
 
