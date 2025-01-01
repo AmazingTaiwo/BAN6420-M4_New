@@ -5,8 +5,6 @@
 # Name: Babalola Taiwo
 # Learner IS: 162894
 
-# Netflix Shows and Movies Analysis
-
 Introduction:
  - This project analyzes Netflix shows and movies dataset, addressing missing values, exploring the data, and visualizing trends like the most watched genres and the distribution of ratings.
 
