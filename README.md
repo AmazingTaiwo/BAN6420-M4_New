@@ -17,10 +17,10 @@ Introduction:
  
 Explanation on how the script works
  1. Import Libraries:
-  - Libraries like `zipfile`, `os`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, and `shutil` are imported to handle tasks like file extraction, data manipulation, visualization, and file management.
+   - Libraries like `zipfile`, `os`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, and `shutil` are imported to handle tasks like file extraction, data manipulation, visualization, and file management.
 
  2. Define Paths:
-   - The script sets up paths to the folder where extracted files will be saved (`extracted_folder_path`) and the location of the ZIP file (`zip_file_path`).
+    - The script sets up paths to the folder where extracted files will be saved (`extracted_folder_path`) and the location of the ZIP file (`zip_file_path`).
 
  3. Extract ZIP File:
    - The `zipfile.ZipFile` method extracts the contents of the ZIP file to the specified folder (`Netflix_shows_movies/`). 
