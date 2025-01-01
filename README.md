@@ -7,7 +7,6 @@
 
 # Netflix Shows and Movies Analysis
 
-
 Introduction
   The provided Python script handles the extraction, cleaning, exploration, visualization, and saving of Netflix data. Here's a breakdown of each section and what the script does:
   This project analyzes Netflix shows and movies dataset, addressing missing values, exploring the data, and visualizing trends like the most watched genres and the distribution of ratings.
@@ -16,13 +15,10 @@ Introduction
   - Python Scripts: The analysis and visualizations are written in Python.
   - Visualizations: Charts like 'Most Watched Genres' are saved as images.
   - README: Instructions on how to run and interpret the code.
-
-    How to Run:
-    1. Unzip the dataset into the folder.
-    2. Run the Python script to clean the data, explore it, and generate the visualizations.
-    3. Integrate visualizations into R if needed.
+ 
+Explanation on how the script works
  1. Import Libraries:
-   - Libraries like `zipfile`, `os`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, and `shutil` are imported to handle tasks like file extraction, data manipulation, visualization, and file management.
+  - Libraries like `zipfile`, `os`, `pandas`, `numpy`, `seaborn`, `matplotlib.pyplot`, and `shutil` are imported to handle tasks like file extraction, data manipulation, visualization, and file management.
 
  2. Define Paths:
    - The script sets up paths to the folder where extracted files will be saved (`extracted_folder_path`) and the location of the ZIP file (`zip_file_path`).
@@ -66,18 +62,11 @@ Introduction
    - The generated PNG plot is copied into this output directory using `shutil.copy()`.
    - The entire output directory is then compressed into a ZIP file (`Netflix_analysis.zip`) using `shutil.make_archive()`.
 
- Summary of Actions:
-1. Extracts a ZIP file containing Netflix data.
-2. Renames the extracted CSV to `Netflix_shows_movies.csv`.
-3. Loads the CSV file into a pandas DataFrame and checks for missing values.
-4. Cleans and explores the dataset (splitting genres, checking data types, and summarizing ratings).
-5. Visualizes the most watched genres and the distribution of ratings using Seaborn and Matplotlib.
-6. Saves the generated plot as a PNG file.
-7. Creates an output directory, copies the plot into it, and compresses the folder into a ZIP file.
-
- Possible Improvements:
-- Handle file paths more robustly, especially for non-Windows OS (e.g., using `os.path.join()` for cross-platform compatibility).
-- You could add error handling to check if the ZIP file exists before trying to extract it.
-- Depending on the size of the dataset, consider optimizing memory usage (e.g., by working with smaller chunks or sampling the data). 
-
-This script is useful for extracting, analyzing, and visualizing data from a ZIP file containing Netflix shows and movies information.
+How to Run
+    1. Unzip the dataset into the folder. or clone it from git hub with the repository link
+    2. open cmd and Run the Python script to clean the data, explore it, and generate the visualizations.
+    3. Data Visualization in R
+       - Install R studio
+       - load library(png)
+       - Naviagte and open the file: BAN6420_M4_R_visual.R from the working directory on R-studio
+       - execute by click on Run. (most watched genre is displa
