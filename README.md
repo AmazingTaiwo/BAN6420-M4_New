@@ -62,10 +62,10 @@ Explanation on how the script works
    - The entire output directory is then compressed into a ZIP file (`Netflix_analysis.zip`) using `shutil.make_archive()`.
 
 How to Run
-  - Download 
-  - open cmd and Run the Python script to clean the data, explore it, and generate the visualizations.
-  - Data Visualization in R.
+  - Download code zip from https://github.com/AmazingTaiwo/BAN6420-M4_New.git or clone it to you PC local repository.
+  - open cmd and Run the Python script:main.py to clean the data, explore it, and generate the visualizations.
+  - Data Visualization of most_watched_genres.png in R.
      - Install R studio
-    - load library(png).
-    - Naviagte and open the file: BAN6420_M4_R_visual.R from the working directory on R-studio.
-    - Execute by click on Run. (most watched genre is displa
+     - load library(png).
+     - Naviagte and open the file: BAN6420_M4_R_visual.R from the working directory on R-studio.
+     - Execute by click on Run. (most watched genre is displa
