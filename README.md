@@ -68,4 +68,4 @@ How to Run
      - Install R studio
      - load library(png).
      - Naviagte and open the file: BAN6420_M4_R_visual.R from the working directory on R-studio.
-     - Execute by click on Run. (most watched genre is displa
+     - Execute by clicking on Run. (most watched genre is displa
