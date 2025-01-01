@@ -62,10 +62,10 @@ Explanation on how the script works
    - The entire output directory is then compressed into a ZIP file (`Netflix_analysis.zip`) using `shutil.make_archive()`.
 
 How to Run
-    1. Unzip the dataset into the folder. or clone it from git hub with the repository link
-    2. open cmd and Run the Python script to clean the data, explore it, and generate the visualizations.
-    3. Data Visualization in R
-       - Install R studio
-       - load library(png)
-       - Naviagte and open the file: BAN6420_M4_R_visual.R from the working directory on R-studio
-       - execute by click on Run. (most watched genre is displa
+ - Unzip the dataset into the folder. or clone it from git hub with the repository link-
+ - open cmd and Run the Python script to clean the data, explore it, and generate the visualizations.
+ - Data Visualization in R.
+    - Install R studio
+    - load library(png).
+    - Naviagte and open the file: BAN6420_M4_R_visual.R from the working directory on R-studio.
+    - Execute by click on Run. (most watched genre is displa
